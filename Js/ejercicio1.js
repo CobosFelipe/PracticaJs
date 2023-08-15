@@ -4,7 +4,7 @@ alert("Ejercicio 1: \n¡Hola! ¡Bienvenido/a  a JavaScript!");
 //Ejercicio 2 (Palabra o frase a lowerCase)
 let fraseLowercase = "";
 fraseLowercase = prompt(
-  "Ejercicio2: \nIngrese una palabra o frase para convertirla:"
+  "Ejercicio 2: \nIngrese una palabra o frase para convertirla:"
 );
 fraseLowercase = fraseLowercase.toLowerCase();
 alert("Su palabra o frase convertida es: " + fraseLowercase);
@@ -19,16 +19,16 @@ if (edad >= 18) {
 } else alert("Valor ingresado no valido");
 
 //Ejercicio 4 (Verificacion de contraseña)
-let contrasena = "secreto123";
-contrasena = prompt("Ejercicio 4: \nIngrese su contraseña:");
-if (contrasena === "secreto123") {
+let password = "secreto123";
+password = prompt("Ejercicio 4: \nIngrese su contraseña:");
+if (password === "secreto123") {
   alert("Acceso concedido");
 } else alert("Acceso denegado, intente nuevamente");
 
 //Ejercicio 5 (Mensajes personalizados)
 function mostrarMensaje() {
   let userName = "";
-  userName = prompt("Ejercicio5: \nIngrese su nombre:");
+  userName = prompt("Ejercicio 5: \nIngrese su nombre:");
   return alert(
     "!Hola " + userName + "! Espero que estés disfrutando de JavaScript"
   );
