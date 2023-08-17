@@ -12,7 +12,7 @@ button{
     font-size: 12px;
     font-weight: bold;
     position: relative;
-    border-radius: 15px;
+    border-radius: 8px;
 }
 
 button:hover::before{
@@ -25,7 +25,7 @@ button:hover::before{
     height: 100%;
     background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
     background-size: 800%;
-    border-radius: 20px;
+    border-radius: 10px;
     filter:blur(8px);
     animation: glowing 20s linear infinite;
 }
